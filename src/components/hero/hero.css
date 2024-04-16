@@ -1,7 +1,7 @@
 .hero {
     width: 60%;
   height: 100vh;
-  background-color: #112240;
+  /* background-color: #112240; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -69,7 +69,7 @@ p span {
 }
 
 @media(max-width:1440px){
-    .hero-section{
+    .hero{
         margin-left: 200px;
     }
     p{
@@ -81,7 +81,7 @@ p span {
 }
 
  @media (max-width: 1024px) {
-    .hero-section {
+    .hero {
             margin-top: -90px;
             margin-left: 120px;
             width: 70%;
@@ -106,7 +106,7 @@ p span {
  }
 
  @media (max-width: 768px) {
-    .hero-section {
+    .hero {
             margin-top: -90px;
             margin-left: 80px;
             width: 80%;
@@ -131,7 +131,7 @@ p span {
  }
  @media (max-width: 500px) {
 
-     .hero-section {
+     .hero {
          margin-top: -80px;
          margin-left: 30px;
          width: 90%;
@@ -158,7 +158,7 @@ p span {
 
  @media (max-width: 375px) {
 
-    .hero-section{
+    .hero{
         margin-top: -80px;
         margin-left: 30px;
         width: 90%;
@@ -184,7 +184,7 @@ p span {
  
    @media (max-width:320px) {
 
-       .hero-section {
+       .hero {
            margin-top: -50px;
            margin-left: 30px;
            width: 80%;

@@ -1,14 +1,22 @@
+import { useEffect, useState } from "react";
 import './App.css';
-import Navbar from "./components/navbar/navbar"
-import Hero from "./components/hero/hero"
+
+import Main from "./components/main";
+import Loader from "./components/icons/Loader";
+
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-    </div>
-  );
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = () => {
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 2000);
+    };
+    fetchData();
+  }, []);
+  return isLoading ? <Loader /> : <Main />;
 }
 
 export default App;
