@@ -66,7 +66,7 @@ const Logo = () => {
                 fontWeight="600"
                 fill="#282c34"
               >
-                S
+                J
               </text>
             </g>
           </g>

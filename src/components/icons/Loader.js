@@ -33,7 +33,7 @@ const Loader = () => {
                 fontWeight="500"
                 fill="#64ffda"
               >
-                S
+                J
               </text>
             </g>
           </g>
