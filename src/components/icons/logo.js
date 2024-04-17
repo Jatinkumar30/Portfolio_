@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <IconLogo>
       <span className="container">
-        <svg
+        {/* <svg
           id="logo"
           xmlns="http://www.w3.org/2000/svg"
           role="img"
@@ -37,7 +37,7 @@ const Logo = () => {
               </text>
             </g>
           </g>
-        </svg>
+        </svg> */}
         <svg
           id="logo"
           xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ const Logo = () => {
                 font-family="Arial"
                 font-size="50"
                 fontWeight="600"
-                fill="#282c34"
+                fill="#64ffda"
               >
                 J
               </text>
@@ -77,9 +77,10 @@ const Logo = () => {
 };
 
 const IconLogo = styled.section`
+
   .container {
     position: relative;
-
+    transition: transform 330ms ease-in-out;
     margin-left: 80px;
   }
 
@@ -89,14 +90,18 @@ const IconLogo = styled.section`
     max-width: 100%;
     position: block;
   }
-
+  
+${'' /* 
   .top {
     position: absolute;
     transition: transform 0.3s ease-in-out; /* Add a smooth transition */
   }
+ */}
 
-  .container:hover .top {
-    transform: translateY(-3px) translateX(-2px);
+  .container:hover {
+    ${'' /* transform: translateY(-3px) translateX(-2px); */}
+    transform: scale(2);
+    
   }
 
   @media (max-width: 769px) {
