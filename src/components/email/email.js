@@ -6,8 +6,8 @@ const Email = () => {
     <EmailRight>
       <div className="social-right">
         <div className="mailstyle">
-          <a href="mailto:Sumit.Patel.0272@gmail.com">
-            Sumit.Patel.0272@gmail.com
+          <a href="mailto:Bhanurawal.30@gmail.com">
+          Bhanurawal.30@gmail.com
           </a>
         </div>
       </div>
