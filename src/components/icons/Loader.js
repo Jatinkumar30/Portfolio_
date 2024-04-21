@@ -45,11 +45,10 @@ const Loader = () => {
 
 const FrontLoader = styled.div`
   .loader {
-    zoom : 1.4;
-    width: 70px;
+    width: 100px;
     text-align: center;
     margin-top: 340px;
-    margin-left: 780px;
+    margin-left: 880px;
   }
 
   .loader .logo path {
