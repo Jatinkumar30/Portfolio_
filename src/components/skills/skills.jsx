@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const skills = () => {
     return (
-        <skillStyle>
+        <SkillStyle>
             <div className="skills" id="skills">
                 <h2 className="skill-heading">Skills</h2>
                 <div className="skill-list">
@@ -17,7 +17,7 @@ const skills = () => {
                     </ul>
                 </div>
             </div>
-        </skillStyle>
+        </SkillStyle>
     );
 };
 

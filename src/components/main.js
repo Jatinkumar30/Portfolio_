@@ -20,8 +20,8 @@ const Main = () => {
       <div className="main">
         <HeroSection /> 
         <About />
-        <Contact />
         <Skills />
+        <Contact />
         <Footer />
       </div>
     </div>
