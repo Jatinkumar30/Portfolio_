@@ -6,6 +6,7 @@ import About from "./about/about"
 import Footer from "./footer/footer"
 import Contact from "./contact/contact"
 import Email from "./email/email"
+import Skills from "./skills/skills"
 
 
 import "../App.css";
@@ -20,6 +21,7 @@ const Main = () => {
         <HeroSection /> 
         <About />
         <Contact />
+        <Skills />
         <Footer />
       </div>
     </div>
