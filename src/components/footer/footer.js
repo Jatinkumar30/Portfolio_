@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 const footer = () => {
     return (
-        <Footerbox>
+        <FooterBox>
             <div className="footer">
                 <p className="build">Designed and build by Jatin Kumar</p>
                 <p className="inspired">Took inspiration from Brittany Chiang</p>
             </div>
-        </Footerbox>
+        </FooterBox>
     );
 };
 
