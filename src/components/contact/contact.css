@@ -1,0 +1,284 @@
+.contact{
+  
+    width: 60%;
+    height: 500px;
+    margin-top: 500px;
+    margin-left: 400px;
+    justify-content: space-between;
+    display: block;
+    position: relative;
+ 
+   
+}
+
+.heading{
+font-size: 18px;
+text-align: center;
+margin-left: -100px;
+
+
+
+    &::before {
+        counter-increment: section 4;
+        content: "0" counter(section) ".";
+        margin-right: 10px;
+        color: #64ffda;
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+  
+}
+
+.contact h2{
+color: #ccd6f6;
+font-size: 40px;
+text-align: center;
+line-height: 2;
+margin-left: -90px;
+
+}
+
+.contact p{
+text-align: center;
+margin-left: 200px;
+}
+.container{
+margin-top: 100px;
+margin-left: 490px;
+}
+
+.container a{
+text-align: center;
+}
+.text{
+color: #64ffda;
+background-color: #0a192f;
+border: 1px solid #64ffda;
+width: 70px;
+height: 20px;
+padding: 10px;
+border-radius: 2px;
+font-size: 14px;
+line-height: 1;
+text-decoration: none;
+position: absolute;
+
+
+
+
+}
+.bottombox{
+width: 70px;
+height: 20px;
+background-color: #64ffda;
+z-index: -1;
+position: absolute;
+
+}
+
+
+
+
+.topbox {
+  position: absolute;
+  
+  transition: transform 0.3s ease-in-out;
+  /* Add a smooth transition */
+}
+
+.container:hover .topbox {
+  transform: translateY(-3px) translateX(-2px);
+}
+
+@media(max-width:1440px){
+.contact{
+    margin-left: 330px;
+}
+.contact h2{
+    margin-left: -110px;
+}
+.contact p{
+    width: 800px;
+    margin-left: 10px;
+}
+
+.container{
+    margin-left:340px;
+}
+.bottombox{
+    margin-left: 0px;
+}
+}
+
+@media(max-width:1024px){
+.contact {
+        width: 80%;
+        margin-left: 120px;
+    }
+
+    .heading {
+        font-size: 16px;
+        margin-left: -80px;
+    }
+
+    .contact h2 {
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .contact p {
+        width: 700px;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .container {
+        margin-top: 80px;
+        margin-left: 330px;
+    }
+
+
+    .bottombox {
+        width: 70px;
+        height: 20px;
+        background-color: #64ffda;
+        z-index: -1;
+        position: absolute;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+.contact {
+        width: 80%;
+        margin-left: 140px;
+    }
+
+    .heading {
+        font-size: 16px;
+        margin-left: -100px;
+    }
+
+    .contact h2 {
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    .contact p {
+        width: auto;
+        text-align: center;
+        margin-left: -60px;
+    }
+
+    .container {
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+
+
+    
+}
+
+@media (max-width: 425px) {
+  .contact{
+    width: 80%;
+    margin-left: 55px;
+  }
+  .heading{
+    font-size: 16px;
+    margin-left: -10px;
+  }
+
+  .contact h2{
+    margin-top: -30px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+      .contact p {
+          font-size: 15px;
+          width: auto;
+          text-align: center;
+          margin-left: -25px;
+      }
+
+      .container {
+          margin-top: 100px;
+          margin-left: 130px;
+      }
+
+     
+      
+
+
+
+
+     
+}
+@media(max-width:375px) {
+  .contact {
+      width: 80%;
+      margin-left: 60px;
+  }
+
+  .heading {
+      font-size: 14px;
+      margin-left: -15wpx;
+  }
+
+  .contact h2 {
+      font-size: 30px;
+      text-align: center;
+      margin-left: 10px;
+  }
+
+  .contact p {
+      width: auto;
+      text-align: center;
+      margin-left: -45px;
+      font-size: 14px;
+  }
+
+  .container {
+      margin-top: 60px;
+      margin-left: 90px;
+  }
+
+
+  
+}
+
+@media(max-width:320px){
+.contact {
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .heading {
+        font-size: 14px;
+        margin-left: -50px;
+    }
+
+    .contact h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-left: -10px;
+    }
+
+    .contact p {
+        width: auto;
+        text-align: center;
+        margin-left: -20px;
+        font-size: 14px;
+    }
+
+    .container {
+        margin-top: 60px;
+        margin-left: 80px;
+    }
+
+
+   
+}
