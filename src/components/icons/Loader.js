@@ -45,7 +45,7 @@ const Loader = () => {
 
 const FrontLoader = styled.div`
   .loader {
-    width: 100px;
+    width: 80px;
     text-align: center;
     margin-top: 340px;
     margin-left: 900px;
