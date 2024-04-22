@@ -60,7 +60,7 @@ const Navbar = () => {
                     onClick={(e) => handleNavigationClick(e, "contact")}
                     href="">contact</a>
                 </li>
-                <a href="/resume" className="resume-link">resume</a>
+                <a href="https://drive.google.com/file/d/1ek4rHZeVarkhwKAQtu4NtdSWPoXbkC9c/view?usp=drive_link" className="resume-link">resume</a>
             </ol>
 
             <div className="mobile-navbar-btn">
