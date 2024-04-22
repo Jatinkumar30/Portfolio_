@@ -7,7 +7,7 @@ import Footer from "./footer/footer"
 import Contact from "./contact/contact"
 import Email from "./email/email"
 import Skills from "./skills/skills"
-
+import Project from "./projects/project"
 
 import "../App.css";
 
@@ -21,6 +21,7 @@ const Main = () => {
         <HeroSection /> 
         <About />
         <Skills />
+        <Project />
         <Contact />
         <Footer />
       </div>
