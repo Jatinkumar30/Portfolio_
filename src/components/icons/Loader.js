@@ -116,8 +116,8 @@ const FrontLoader = styled.div`
   }
 
   @media (max-width: 425px) {
-    margin-left: -720px;
-    margin-top: -100px;
+    margin-left: -830px;
+    margin-top: -120px;
   }
 
   @media (max-width: 375px) {
