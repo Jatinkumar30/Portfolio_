@@ -9,7 +9,7 @@ const Hero = () => {
             I build the web with innovative and user-friendly solutions.
           </h2>
           <p>
-            I'm a budding developer specializing in building optimal web applications. I am also a Black-belt (not flexing but true 😜). I always have been interested in latest technologies and geeky stuffs. Currenly I'm looking for opportunities, you can <span>Contact</span> me.
+          I'm a passionate developer dedicated to creating efficient web applications. My enthusiasm for the latest technologies and all things geeky drives my work. I'm currently seeking new opportunities. Feel free to <span>Contact</span> me.
           </p>
         </div>
     );

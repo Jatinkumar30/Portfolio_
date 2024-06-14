@@ -47,8 +47,8 @@ const FrontLoader = styled.div`
   .loader {
     width: 80px;
     text-align: center;
-    margin-top: 400px;
-    margin-left: 900px;
+    margin-top: 500px;
+    margin-left: 1000px;
   }
 
   .loader .logo path {

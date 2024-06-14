@@ -1,8 +1,8 @@
 import React from "react";
 import "./project.css";
 
-import p1 from "../../assests/tally.gif";
-import p2 from "../../assests/shazam.gif";
+import p1 from "../../assests/Trendz.gif";
+import p2 from "../../assests/motionart.gif";
 import p3 from "../../assests/DealBazar.gif";
 
 import Github from "../icons/Github";
@@ -26,35 +26,33 @@ const Project = () => {
 
         <div className="project1-right">
           <h5>Featured Project</h5>
-          <a href="https://github.com/Jatinkumar30/tally">Tally Counter</a>
+          <a href="https://github.com/Jatinkumar30/tally">Trends4you</a>
 
           <p>
-            Tally-CounterTally-Counter Jun 2023 - PresentJun 2023 - Present This
-            tally counter is a software device used to incrementally count
-            something, typically fleeting. One of the most common things tally
-            counters are used for is counting people, animals. Technology used :
-            ReactJs , JSX. Backend : Firebase
+          • Developed a user-friendly E-commerce Fashion Clothing website using the MERN stack.
+          • Enabled a NodeJS backend and ReactJS frontend for a seamless experience. Designed for high
+            scalability and efficiency, providing an intuitive shopping experience for men, women, and kids.
           </p>
 
           <ul>
             {" "}
-            <li>React</li>
-            <li>Express</li>
-            <li>Firebase</li>
-            <li>Node</li>
-            <li>Netlify</li>
+            <li>ReactJS</li>
+            <li>Javascript</li>
+            <li>ExpressJS</li>
+            <li>MongoDB</li>
+            <li>NodeJS</li>
           </ul>
 
           <div className="project-social">
             <a
-              href="https://github.com/Jatinkumar30/tally"
+              href="https://github.com/Jatinkumar30/Trends4you"
               aria-label="github link"
               target="blank"
             >
               <Github />
             </a>
             <a
-              href="https://github.com/Jatinkumar30/tally"
+              href="https://github.com/Jatinkumar30/Trends4you"
               aria-label="external link"
               target="blank"
             >
@@ -69,34 +67,32 @@ const Project = () => {
         <div className="project2-left description">
           <h5>Featured Project</h5>
           <a href="https://github.com/Jatinkumar30/shazam-app">
-            Shazam Music Player
+          Motion-art-Effect 
           </a>
 
           <p>
-            This music app is built with React, Redux(with toolkit) and Tailwind
-            CSS is a powerful tool for music lovers. It uses Shazam API React
-            Router for smooth navigation ex- tensive library of songs, albums
-            artists. Enjoy your favorite tunes on the go with this sleek
-            advanced app.
+          • Developed an innovative project using WebFluid WebGL, similar to Motion Art Elementor.
+          • Collaborated on creating fluid animations and responsive designs, enhancing user engagement and
+            experience. Designed for optimal scalability and modern web standards compliance.
           </p>
 
           <ul>
-            <li>React</li>
-            <li>Express</li>
-            <li>Node</li>
-            <li>JavaScript</li>
+            <li>ReactJS</li>
+            <li>Javascript</li>
+            <li>WebGL</li>
+            <li>SCSS + CSS</li>
           </ul>
 
           <div className="project2-social">
             <a
-              href="https://github.com/Jatinkumar30/shazam-app"
+              href="https://github.com/Jatinkumar30/MotionArt-Effect-main"
               aria-label="github link"
               target="blank"
             >
               <Github />
             </a>
             <a
-              href="https://github.com/Jatinkumar30/shazam-app"
+              href="https://motion-art-effect-main.vercel.app/"
               aria-label="external link"
               target="blank"
             >
@@ -118,7 +114,7 @@ const Project = () => {
 
       {/* project3 */}
 
-      <div className="project3 project3">
+      <div className="project1 project3">
         <a
           className="project1-left "
           href="https://ecommerce199.netlify.app/"
