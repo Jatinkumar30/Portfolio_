@@ -102,7 +102,7 @@ const Project = () => {
         </div>
         <a
           className="project2-right image"
-          href="https://github.com/Jatinkumar30/shazam-app"
+          href="https://motion-art-effect-main.vercel.app/"
           target="blank"
         >
           <div className="project2-image">
